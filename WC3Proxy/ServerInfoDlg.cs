@@ -64,7 +64,7 @@ namespace Foole.WC3Proxy
 
             serverAddressTextBox.Text = serverInfo.Hostname;
 
-            expansionCheckBox.Checked = true;
+            expansionCheckBox.Checked = serverInfo.Expansion;
 
             foreach (WC3Version vers in versionComboBox.Items)
             {
